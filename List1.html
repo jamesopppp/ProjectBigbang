@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>List1</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/public.css"/>
+<link rel="stylesheet" href="css/css.css"/>
+<link rel="stylesheet" href="css/main.css" />
+
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+
+<div class="bg-white"></div>
+<header class="header">
+  <div class="container">
+	<h1 class="logo"><a href="#"></a></h1>
+	<ul class="nav">
+	  <li class="nav-item">
+		<a href="index.html">HomePage</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_iphone">
+		<a class="goto4">人气推荐</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_subIphone" onClick="oncl()">
+		<a href="#">美剧分类</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_voice" onClick="oncl()">
+		<a href="#">精彩Video</a>
+	  </li>
+	  <li class="nav-item">
+		<a href="About.html">关于我们</a>
+	  </li>
+	  <li class="nav-item" onClick="oncl()">
+		<a href="#">Vip服务</a>
+	  </li>
+	  <li class="nav-item" onClick="oncl()">
+		<a href="#">交流社区</a>
+	  </li>
+	</ul>
+	<div class="user">
+	  <div class="user-hover"></div>
+	  <div class="user-img">
+		<img src="images/user.png" alt="#">
+		<span class="arrow-bg"></span>
+		<span class="arrow-font"></span>
+	  </div>
+	  <div class="user-info">
+		<ul>
+		  <li class="login"><a href="Login.html">Login</a></li>
+		  <li class="register">没有账号?<a href="Register.html">立即注册</a></li>
+		  <li><a href="#">我的追剧</a></li>
+		  <li><a href="#">我的收藏</a></li>
+		  <li><a href="#">个人设置</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</header>
+
+<div class="sub-nav">
+  <div class="sub-nav__wrap" data-link="nav_iphone">
+	<a class="goto1">
+	  <img src="images/cont/1-1.png" alt="#">
+	  <span>最近更新</span>
+	</a>
+	<a class="goto2">
+	  <img src="images/cont/1-2.png" alt="#">
+	  <span>最受好评</span>
+	</a>
+	<a class="goto3">
+	  <img src="images/cont/1-3.png" alt="#">
+	  <span>播放最多</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_subIphone">
+	<a href="#">
+	  <img src="images/cont/2-1.png" alt="#">
+	  <span>爱情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-2.png" alt="#">
+	  <span>剧情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-3.png" alt="#">
+	  <span>喜剧</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-4.png" alt="#">
+	  <span>科幻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-5.png" alt="#">
+	  <span>动作</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-6.png" alt="#">
+	  <span>犯罪</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-7.png" alt="#">
+	  <span>家庭</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_voice">
+	<a href="#">
+	  <img src="images/cont/3-1.png" alt="#">
+	  <span>拍摄花絮</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-2.png" alt="#">
+	  <span>幕后趣闻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-3.png" alt="#">
+	  <span>精彩剪辑</span>
+	</a>
+  </div>
+</div>
+  </div>
+
+
+
+
+      <section class="panel home" data-section-name="home"  >
+      <div class="myhome">
+        <div class="lefthome">
+        <p>N<br>e<br>w</p>
+        </div>
+		<div class="homeall">
+		  <ul>
+		        <li class="a">
+		           <div class="a1">
+		             <p class="top">The Walking Dead</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star2.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧主要讲述的是主人公瑞克是亚特兰大城郊一座小镇的副警长。在执行公务的过程中，瑞克遭到枪击，伤势严重，被人紧急送往当地医院进行抢救。当瑞克醒来之后发现，世界已经丧尸蔓延、危机四伏。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l1.jpg">
+		           </div>
+		        </li>
+		        <li class="b">
+		           <div class="b1">
+		             <p class="top">The Big Bang Theory</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">《生活大爆炸》是由马克·森卓斯基执导，查克·罗瑞、比尔·布拉迪编剧，吉姆·帕森斯、约翰尼·盖尔克奇、卡蕾·措科、西蒙·赫尔伯格、昆瑙·内亚等共同主演的美国情景喜剧。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l13.jpg">
+		           </div>
+		        </li>
+		        <li class="c">
+		           <div class="c1">
+		             <p class="top">Lost</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star2.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">本剧主要讲述大洋航空815客机坠落在太平洋的热带神秘孤岛上，48名乘客侥幸生还。面对荒芜人烟的小岛，生还者形形色色，国籍、人种、文化背景、个性各异，有父亲，有儿子，有朋友，也有敌人。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l3.jpg">
+		           </div>
+		        </li>
+		        <li class="d">
+                   <div class="d1">
+		             <p class="top">The Flash</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star2.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">故事讲述了主角巴里·艾伦在一次粒子加速器爆炸的事故中被闪电击中后获得了极速移动的超能力，并在S.T.A.R.实验室的协助下，化身超级英雄闪电侠打击罪恶。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l4.jpg">
+		           </div>
+		        </li>
+		        <li class="e">
+                   <div class="e1">
+		             <p class="top">House of Cards</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧讲述主人公弗兰克·安德伍德是美国国会众议院多数党党鞭，是一个老谋深算的职业政客，他坚信新当选的美国总统及其幕僚背叛了他，于是发誓要将这一任总统赶下台，他不择手段展开一系列部署。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l5.jpg">
+		           </div>
+		        </li>
+		        <li class="f">
+                   <div class="f1">
+		             <p class="top">2 Broke Girls</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">本剧讲述Max生在穷人家庭，而Caroline生在富人家庭。Caroline家道中落，令她不得不去Max工作的饭店打工赚钱。两人商量着筹集25万美元资金来共同开创新事业。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l6.jpg">
+		           </div>
+		        </li>
+		  </ul>
+		</div>
+		<div class="righthome"><h1>M<br>o<br>r<br>e</h1></div>
+		</div>
+      </section>
+
+
+
+
+	  <section class="panel overview" data-section-name="overview">
+	  <div class="myhome">
+        <div class="lefthome">
+        <p>P<br>o<br>p<br>u<br>l<br>a<br>r</p>
+        </div>
+		<div class="homeall">
+		  <ul>
+		        <li class="a">
+		           <div class="a1">
+		             <p class="top">Chicago PD</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧是NBC为《芝加哥烈焰》推出的衍生剧，讲述了芝加哥警局的情报部门日常生活以及侦破案件的经过，已推出四季，正在播放第四季。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l8.jpg">
+		           </div>
+		        </li>
+		        <li class="b">
+		           <div class="b1">
+		             <p class="top">House of Cards</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧讲述主人公弗兰克·安德伍德是美国国会众议院多数党党鞭，是一个老谋深算的职业政客，他坚信新当选的美国总统及其幕僚背叛了他，于是发誓要将这一任总统赶下台，他不择手段展开一系列部署。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l10.jpg">
+		           </div>
+		        </li>
+		        <li class="c">
+		           <div class="c1">
+		             <p class="top">Game of Thrones</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">《权力的游戏》（Game of Thrones），是美国HBO电视网制作推出的一部中世纪史诗奇幻题材的电视剧。该剧改编自美国作家乔治·R·R·马丁的奇幻小说《冰与火之歌》系列。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l7.jpg">
+		           </div>
+		        </li>
+		        <li class="d">
+                   <div class="d1">
+		             <p class="top">The Big Bang Theory</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">《生活大爆炸》是由马克·森卓斯基执导，查克·罗瑞、比尔·布拉迪编剧，吉姆·帕森斯、约翰尼·盖尔克奇、卡蕾·措科、西蒙·赫尔伯格、昆瑙·内亚等共同主演的美国情景喜剧。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l13.jpg">
+		           </div>
+		        </li>
+		        <li class="e">
+                   <div class="e1">
+		             <p class="top">Alcatraz</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧讲述阿尔卡特拉斯岛（俗称恶魔岛）联邦监狱关闭时监狱的囚犯和狱警神秘失踪并在2012年重新出现，联邦调查局派人追踪他们的下落并调查事件真相的故事。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l11.jpg">
+		           </div>
+		        </li>
+		        <li class="f">
+                   <div class="f1">
+		             <p class="top">Arrow</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">讲述了亿万阔少奥利弗·奎恩遭遇海难，困于小岛五年后被渔民救起，重返故乡斯塔灵市。奥利弗在炼狱岛上揭开了父亲参与的一场恐怖计划，同岛上的雇佣兵、黑手党、恐怖分子之间发生的故事。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l12.jpg">
+		           </div>
+		        </li>
+		  </ul>
+		</div>
+		<div class="righthome"><h1>M<br>O<br>R<br>E</h1></div>
+		</div>
+	  </section>
+
+
+
+
+	  <section class="panel configuration" data-section-name="configuration">
+	  <div class="myhome">
+        <div class="lefthome">
+        <p>M<br>o<br>r<br>e<br>p<br>l<br>a<br>y</p>
+        </div>
+		<div class="homeall">
+		  <ul>
+		        <li class="a">
+		           <div class="a1">
+		             <p class="top">The Night Shift</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">《夜班医生》是皮埃尔·莫瑞尔执导的美国医疗题材电视连续剧，由伊恩·马肯、吉尔·弗林特、弗莱迪·罗德里格兹、肯·梁联合主演。该剧已于2014年5月28日在NBC首播。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l14.jpg">
+		           </div>
+		        </li>
+		        <li class="b">
+		           <div class="b1">
+		             <p class="top">The Big Bang Theory</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">《生活大爆炸》是由马克·森卓斯基执导，查克·罗瑞、比尔·布拉迪编剧，吉姆·帕森斯、约翰尼·盖尔克奇、卡蕾·措科、西蒙·赫尔伯格、昆瑙·内亚等共同主演的美国情景喜剧。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l9.jpg">
+		           </div>
+		        </li>
+		        <li class="c">
+		           <div class="c1">
+		             <p class="top">The Walking Dead</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">该剧主要讲述的是主人公瑞克是亚特兰大城郊一座小镇的副警长。在执行公务的过程中，瑞克遭到枪击，伤势严重，被人紧急送往当地医院进行抢救。当瑞克醒来之后发现，世界已经丧尸蔓延、危机四伏。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l15.jpg">
+		           </div>
+		        </li>
+		        <li class="d">
+                   <div class="d1">
+		             <p class="top">Arrow</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">讲述了亿万阔少奥利弗·奎恩遭遇海难，困于小岛五年后被渔民救起，重返故乡斯塔灵市。奥利弗在炼狱岛上揭开了父亲参与的一场恐怖计划，同岛上的雇佣兵、黑手党、恐怖分子之间发生的故事。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l12.jpg">
+		           </div>
+		        </li>
+		        <li class="e">
+                   <div class="e1">
+		             <p class="top">2 Broke Girls</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">本剧讲述Max生在穷人家庭，而Caroline生在富人家庭。Caroline家道中落，令她不得不去Max工作的饭店打工赚钱。两人商量着筹集25万美元资金来共同开创新事业。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l6.jpg">
+		           </div>
+		        </li>
+		        <li class="f">
+                   <div class="f1">
+		             <p class="top">The Flash</p>
+		             <p>推荐指数:&nbsp;<img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"><img src="images/star1.png"></p>
+		             <p>剧情简介:</p>
+		             <p style="font-size:12px">故事讲述了主角巴里·艾伦在一次粒子加速器爆炸的事故中被闪电击中后获得了极速移动的超能力，并在S.T.A.R.实验室的协助下，化身超级英雄闪电侠打击罪恶。</p>
+		             <p>立即观看:</p>
+		             <p class="bf">
+		                 <img src="images/bf1.png">
+		                 <img src="images/bf2.png">
+		                 <img src="images/bf3.png">
+		                 <img src="images/bf4.png">
+		             </p>
+		           </div>
+		           <div class="img">
+		           <img src="images/list/l4.jpg">
+		           </div>
+		        </li>
+		  </ul>
+		</div>
+		<div class="righthome"><h1>M<br>O<br>R<br>E</h1></div>
+		</div>
+			
+	  </section>
+
+
+
+
+     <section class="panel endl" data-section-name="endl">
+			
+<div class="end">
+<div class="left">
+<div class="bgline"></div>
+<div class="bgline2"></div>
+<div class="font1">
+<h1>Contact Us <img src="images/k1.png"></h1>
+<p>Tel: 13288465105</p>
+<p>Qq Or Wechat: 1121690445</p>
+<p>Email: jamessupermail@163.com</p>
+</div>
+</div>
+<div class="right">
+<div class="font2">
+<h1>About The Flash</h1>
+<p>My name is Barry Allen and i am the fastest man alive.  
+When i was a child,i saw my mother</br> killed by something impossible. 
+My father went to prison for her murder.
+Then an accident</br> made me the impossible.
+To the outside world,i am an ordinary forensic scientist, 
+but secretly</br> i use my speed to fight crime and find others like me.
+And one day,i will find who killed my </br>mother and get justice for my father.
+I am The Flash.</p>
+</div>
+</div>
+
+
+</div>
+
+<div class="footer">
+<h2>Copyright © 2017 James Super Company Incorporated. All rights reserved.</h2>
+</div>
+
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/navChange.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+    <script>
+$(function () {
+
+  var slider1 = new Slider();
+  var doc_h = $(document.body).width();
+
+  slider1.inital('sliderBox', {
+	slider_num: 4,
+	w: doc_h,
+	h: 0
+  });
+});
+
+    </script>
+        <script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/scrollify.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/fallback.js"></script>
+
+</body>
+</html>

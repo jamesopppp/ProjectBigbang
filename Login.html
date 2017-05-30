@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<title>Login Page</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+<div class="login-container">
+	<h1>请登录您的账号</h1>
+	
+	<div class="connect">
+		<p>输入您的用户名及密码</p>
+	</div>
+	
+	<form action="" method="post" id="loginForm">
+		<div>
+			<input type="text" name="username" class="username" placeholder="用户名" autocomplete="off"/>
+		</div>
+		<div>
+			<input type="password" name="password" class="password" placeholder="密码" oncontextmenu="return false" onpaste="return false" />
+		</div>
+		<button id="submit" type="submit">登录</button>
+	</form>
+
+	<a href="Register.html">
+		<button type="button" class="register-tis">还有没有账号？</button>
+	</a></br>
+    <a href="index.html">
+		<button type="button" class="register-tis">游客模式</button>
+	</a>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+<script src="js/supersized.3.2.7.min.js"></script>
+<script src="js/supersized-init.js"></script>
+
+<script src="js/jquery.validate.min.js?var1.14.0"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>MyIndex</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/public.css"/>
+<link rel="stylesheet" href="css/css.css"/>
+
+</head>
+<style type="text/css">
+.wrapper {
+  width: 100%;
+  height: 760px;
+  overflow: hidden;
+  background-color: white;
+}
+</style>
+<body>
+
+<div class="wrapper" id="wrapper">
+
+<div class="bg-white"></div>
+
+<header class="header">
+  <div class="container">
+	<h1 class="logo"><a href="#"></a></h1>
+	<ul class="nav">
+	  <li class="nav-item">
+		<a href="#">HomePage</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_iphone">
+		<a href="list1.html">人气推荐</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_subIphone" onclick="oncl()">
+		<a href="#">美剧分类</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_voice" onclick="oncl()">
+		<a href="#">精彩Video</a>
+	  </li>
+	  <li class="nav-item">
+		<a href="About.html">关于我们</a>
+	  </li>
+	  <li class="nav-item" onclick="oncl()">
+		<a href="#">Vip服务</a>
+	  </li>
+	  <li class="nav-item" onclick="oncl()">
+		<a href="#">交流社区</a>
+	  </li>
+	</ul>
+	<div class="user">
+	  <div class="user-hover"></div>
+	  <div class="user-img">
+		<img src="images/user.png" alt="#">
+		<span class="arrow-bg"></span>
+		<span class="arrow-font"></span>
+	  </div>
+	  <div class="user-info">
+		<ul>
+		  <li class="login"><a href="Login.html">Login</a></li>
+		  <li class="register">没有账号?<a href="Register.html">立即注册</a></li>
+		  <li><a href="#">我的追剧</a></li>
+		  <li><a href="#">我的收藏</a></li>
+		  <li><a href="#">个人设置</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</header>
+
+<div class="sub-nav">
+  <div class="sub-nav__wrap" data-link="nav_iphone">
+	<a href="list1.html#home">
+	  <img src="images/cont/1-1.png" alt="#">
+	  <span>最近更新</span>
+	</a>
+	<a href="list1.html#overview">
+	  <img src="images/cont/1-2.png" alt="#">
+	  <span>最受好评</span>
+	</a>
+	<a href="list1.html#configuration">
+	  <img src="images/cont/1-3.png" alt="#">
+	  <span>本季新剧</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_subIphone">
+	<a href="#">
+	  <img src="images/cont/2-1.png" alt="#">
+	  <span>爱情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-2.png" alt="#">
+	  <span>剧情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-3.png" alt="#">
+	  <span>喜剧</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-4.png" alt="#">
+	  <span>科幻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-5.png" alt="#">
+	  <span>动作</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-6.png" alt="#">
+	  <span>犯罪</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-7.png" alt="#">
+	  <span>家庭</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_voice">
+	<a href="#">
+	  <img src="images/cont/3-1.png" alt="#">
+	  <span>拍摄花絮</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-2.png" alt="#">
+	  <span>幕后趣闻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-3.png" alt="#">
+	  <span>精彩剪辑</span>
+	</a>
+  </div>
+</div>
+
+</div>
+<div class="bannerbox4">
+<div class="f1"><img src="images/1.png"></div>
+<div class="f2"><img src="images/2.png"></div>
+<div class="f3"><img src="images/3.png"></div>
+      <div class="look"></div>
+
+</div>
+
+<div class="bannerbox1">
+    <ul>
+        <li class="fst-li">
+        <div class="look"></div>
+            <div class="containt-div">
+               <div class="baner-01-a"><img src="images/banner-01-a.png" alt=""/></div>
+               <div class="baner-01-b"><img src="images/banner-01-b.png" alt=""/></div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="bannerbox2">
+    <ul>
+       <li class="sec-li">
+       <div class="look"></div>
+            <div class="containt-div">
+                <div class="banner2-02"><img src="images/banner2-02.png" alt=""/></div>
+                <div class="banner2-01"><img src="images/banner2-01.png" alt=""/></div>
+                <div class="banner2-03"><img src="images/banner2-03.png" alt=""/></div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="bannerbox3">
+    <ul>
+       <li class="third-li">
+            <div class="containt-div">
+                <div class="banner3-01"><img src="images/banner3-01.png" alt=""/></div>
+                <div class="banner3-02"><img src="images/banner3-02.png" alt=""/></div>
+                <div class="banner3-03"><img src="images/banner3-03.png" alt=""/></div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+<div class="end">
+<div class="left">
+<div class="bgline"></div>
+<div class="bgline2"></div>
+<div class="font1">
+<h1>Contact Us <img src="images/k1.png"></h1>
+<p>Tel: 13288465105</p>
+<p>Qq Or Wechat: 1121690445</p>
+<p>Email: jamessupermail@163.com</p>
+</div>
+</div>
+<div class="right">
+<div class="font2">
+<h1>About The Flash</h1>
+<p>My name is Barry Allen and i am the fastest man alive.  
+When i was a child,i saw my mother</br> killed by something impossible. 
+My father went to prison for her murder.
+Then an accident</br> made me the impossible.
+To the outside world,i am an ordinary forensic scientist, 
+but secretly</br> i use my speed to fight crime and find others like me.
+And one day,i will find who killed my </br>mother and get justice for my father.
+I am The Flash.</p>
+</div>
+</div>
+</div>
+
+
+<div class="footer">
+<h2>Copyright © 2017 James Super Company Incorporated. All rights reserved.</h2>
+</div>
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/navChange.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+<script>
+function oncl()
+{
+  alert("功能尚未完成.I'm so fucking sorry")
+}
+$(function () {
+
+  var slider1 = new Slider();
+  var doc_h = $(document.body).width();
+
+  slider1.inital('sliderBox', {
+	slider_num: 4,
+	w: doc_h,
+	h: 760
+  });
+});
+
+</script>
+
+
+</div>
+
+</body>
+</html>

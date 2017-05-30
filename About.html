@@ -1,0 +1,604 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>About</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/public.css"/>
+<link rel="stylesheet" href="css/css.css"/>
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/form.css" />
+</head>
+<style>
+.sub-nav {
+  background-color: rgba(148,148,148,0.8);
+}
+.bg-white {
+  background-color: rgba(148,148,148,0.8);
+}
+.theme-nav .nav-item a {
+  color: white;
+}
+.sub-nav a {
+  color: white;
+}
+.sub-nav a:hover {
+  color: #111;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#space {
+  height: 100%;
+  width: 100%;
+}
+</style>
+<body onLoad="jump()">
+<div class="wrapper" id="wrapper">
+
+<div class="bg-white"></div>
+<header class="header">
+  <div class="container">
+	<h1 class="logo"><a href="#"></a></h1>
+	<ul class="nav">
+	  <li class="nav-item">
+		<a href="index.html">HomePage</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_iphone">
+		<a href="list1.html">人气推荐</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_subIphone" onClick="oncl()">
+		<a href="#">美剧分类</a>
+	  </li>
+	  <li class="nav-item" data-subNav="nav_voice" onClick="oncl()">
+		<a href="#">精彩Video</a>
+	  </li>
+	  <li class="nav-item" onClick="jump()">
+		<a href="#">关于我们</a>
+	  </li>
+	  <li class="nav-item" onClick="oncl()">
+    <a href="#">Vip服务</a>
+    </li>
+    <li class="nav-item" onClick="oncl()">
+    <a href="#">交流社区</a>
+    </li>
+	</ul>
+	<div class="user">
+	  <div class="user-hover"></div>
+	  <div class="user-img">
+		<img src="images/user.png" alt="#">
+		<span class="arrow-bg"></span>
+		<span class="arrow-font"></span>
+	  </div>
+	  <div class="user-info">
+		<ul>
+		  <li class="login"><a href="Login.html">Login</a></li>
+		  <li class="register">没有账号?<a href="Register.html">立即注册</a></li>
+		  <li><a href="#">我的追剧</a></li>
+		  <li><a href="#">我的收藏</a></li>
+		  <li><a href="#">个人设置</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</header>
+
+<div class="sub-nav">
+  <div class="sub-nav__wrap" data-link="nav_iphone">
+	<a href="list1.html#home">
+	  <img src="images/cont/1-1.png" alt="#">
+	  <span>最近更新</span>
+	</a>
+	<a href="list1.html#overview">
+	  <img src="images/cont/1-2.png" alt="#">
+	  <span>最受好评</span>
+	</a>
+	<a href="list1.html#configuration">
+	  <img src="images/cont/1-3.png" alt="#">
+	  <span>播放最多</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_subIphone">
+	<a href="#">
+	  <img src="images/cont/2-1.png" alt="#">
+	  <span>爱情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-2.png" alt="#">
+	  <span>剧情</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-3.png" alt="#">
+	  <span>喜剧</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-4.png" alt="#">
+	  <span>科幻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-5.png" alt="#">
+	  <span>动作</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-6.png" alt="#">
+	  <span>犯罪</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/2-7.png" alt="#">
+	  <span>家庭</span>
+	</a>
+  </div>
+  <div class="sub-nav__wrap" data-link="nav_voice">
+	<a href="#">
+	  <img src="images/cont/3-1.png" alt="#">
+	  <span>拍摄花絮</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-2.png" alt="#">
+	  <span>幕后趣闻</span>
+	</a>
+	<a href="#">
+	  <img src="images/cont/3-3.png" alt="#">
+	  <span>精彩剪辑</span>
+	</a>
+  </div>
+</div>
+</div>
+
+<div id="ABall">
+  <div class="center">
+
+  <section class="panel Ab1" data-section-name="Ab1">
+  <div class="all">
+    <div class="left">
+    <h1>What We Fighting For ?</h1>
+    <div class="around">
+    <img src="images/hj.jpg">
+    <h2>欧风美梦Adream</h2>
+    <p>是国内最大的海外视频社区,长期致力于为喜爱海外文化的用户提供资讯阅读、短视频观看和社区讨论的平台,通过字幕文化打通国内外“语言屏障”,让国内的年轻人足不出户就能欣赏美剧,了解欧美资讯,我们是一个非盈利性美剧爱好者组织,我们的宗旨是:分享快乐,打造国内最顶级的BT美剧片源分享平台.</p>
+    </div>
+    </div>
+    <div class="right">
+    <h1>Business parters</h1>
+    <div class="around">
+    <ul>
+    <li><img src="images/pplist/hz1.png"></li>
+    <li><img src="images/pplist/hz2.png"></li>
+    <li><img src="images/pplist/hz3.png"></li>
+    <li><img src="images/pplist/hz4.png"></li>
+    <li><img src="images/pplist/hz5.png"></li>
+    <li><img src="images/pplist/hz6.png"></li>
+    <li><img src="images/pplist/hz7.png"></li>
+    <li><img src="images/pplist/hz8.png"></li>
+    <li><img src="images/pplist/hz9.png"></li>
+    <li><img src="images/pplist/hz10.png"></li>
+    <li><img src="images/pplist/hz11.png"></li>
+    <li><img src="images/pplist/hz12.png"></li>
+    <li><img src="images/pplist/hz13.png"></li>
+    <li><img src="images/pplist/hz14.png"></li>
+    <li><img src="images/pplist/hz15.png"></li>
+    <li><img src="images/pplist/hz16.png"></li>
+    </ul>
+    <div class="join">战略合作</div>
+    </div>
+    </div>
+  </div>
+  </section>
+  
+
+
+  <section class="panel Ab2" data-section-name="Ab2">
+  <div class="all">
+  <div class="left">
+  <div style="width:100%;height:600px;border:#ccc solid 1px;" id="dituContent"></div>
+  </div>
+  <div class="right">
+  <div class="around">
+  <h1>Address<img src="images/map1.png"></h1>
+  <p>广东省广州市天河区东圃镇大观中路492号</p>
+  <h1>Zip code<img src="images/email.png"></h1>
+  <p>510663</p>
+  <h1>Mode of transportation<img src="images/transportation.png"></h1>
+  <h2>小新塘</h2>
+  <p>设有的公交车有： B4 、B4快 、B26、 320路、325路、452路、497路、548路、 564A、 564路、 573路、 364路、 774路、776路、902路、903路、增城客运站-东圃客运站(广增8线)、增城客运站-天河客运站(广增10线)、夜38路、夜93路.</p>
+  <h2>科学大道口</h2>
+  <P>设有的公交车有：B4 、B4快 、B26、 78A路、320路、355路、364路、391路、452路 、494路、494A、497路、548路、564A 、564路 、581路、774路、776路、902路、903路、 增城客运站-东圃客运站(广增8线)、增城客运站-天河客运站(广增10线)、高峰快线63、夜93路</P>
+  <h2>科学城路口</h2>
+  <p>设有的公交车有：B4快、 B4A 、B4 、B22、 B26 、高峰快线32 、高峰快线63、夜38路、 夜51路 、夜52路、夜81路、夜93路、 448路 、497路、548路、506A 、506路、 508路、 564A 、564路 、574路、 578路、902路、903路、 增城客运站-东圃客运站(广增8线)、增城客运站-天河客运站(广增10线).</p>
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+
+  <section class="panel Ab3" data-section-name="Ab3">
+  <div class="all">
+  <div class="left">
+  <h1>展望未来   The Future</h1>
+  <p class="a1">我们的每一次进步  Every Single Time</p>
+  <p class="a2">都需要您来指引我们前行 We Need You</p>
+  <p class="a3">感激您一直以来不离不弃不曾离开 Thank You</p>
+  <canvas id="space"></canvas>
+  <a href="#" id="warp"></a>  </div>
+  <div class="right"><div class="around">
+  <div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Say Something</h3>
+
+    <fieldset>
+      <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your PhoneNumber" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Say Something" tabindex="4" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" onClick="oncl()">Okey</button>
+    </fieldset>
+  </form>
+</div>
+  </div>
+  </div>
+  </div>
+  </section>
+  
+
+
+
+
+<section class="panel Ab4" data-section-name="Ab4">	
+<div class="end">
+<div class="left">
+<div class="bgline"></div>
+<div class="bgline2"></div>
+<div class="font1">
+<h1>Contact Us <img src="images/k1.png"></h1>
+<p>Tel: 13288465105</p>
+<p>Qq Or Wechat: 1121690445</p>
+<p>Email: jamessupermail@163.com</p>
+</div>
+</div>
+<div class="right">
+<div class="font2">
+<h1>About The Future</h1>
+<p>I want the future to be better than the past. I don’t want it contaminated by the mistakes and errors with which history is filled. We should all be concerned about the future because that is where we will spend the reminder of our lives.
+The future is scary but you can’t just run to the past cause it’s familiar.</p>
+</div>
+</div>
+
+
+</div>
+
+<div class="footer">
+<h2>Copyright © 2017 James Super Company Incorporated. All rights reserved.</h2>
+</div>
+
+</section>
+</div>
+</div>
+
+<script>
+function jump(){
+$("html,body").animate({
+            scrollTop: $("#ABall .center .Ab1").offset().top }, {duration: 800,easing: "swing"});
+        return false;
+}
+function oncl()
+{
+  alert("功能尚未完成.I'm so fucking sorry")
+}
+//based on an Example by @curran
+window.requestAnimFrame = (function(){   return  window.requestAnimationFrame})();
+var canvas = document.getElementById("space");
+var c = canvas.getContext("2d");
+
+var numStars = 1900;
+var radius = '0.'+Math.floor(Math.random() * 9) + 1  ;
+var focalLength = canvas.width *2;
+var warp = 0;
+var centerX, centerY;
+
+var stars = [], star;
+var i;
+
+var animate = true;
+
+initializeStars();
+
+function executeFrame(){
+  
+  if(animate)
+    requestAnimFrame(executeFrame);
+  moveStars();
+  drawStars();
+}
+
+function initializeStars(){
+  centerX = canvas.width / 2;
+  centerY = canvas.height / 2;
+  
+  stars = [];
+  for(i = 0; i < numStars; i++){
+    star = {
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      z: Math.random() * canvas.width,
+      o: '0.'+Math.floor(Math.random() * 99) + 1
+    };
+    stars.push(star);
+  }
+}
+
+function moveStars(){
+  for(i = 0; i < numStars; i++){
+    star = stars[i];
+    star.z--;
+    
+    if(star.z <= 0){
+      star.z = canvas.width;
+    }
+  }
+}
+
+function drawStars(){
+  var pixelX, pixelY, pixelRadius;
+  
+  // Resize to the screen
+  if(canvas.width != window.innerWidth || canvas.width != window.innerWidth){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    initializeStars();
+  }
+  if(warp==0)
+  {c.fillStyle = "rgba(0,10,20,1)";
+  c.fillRect(0,0, canvas.width, canvas.height);}
+  c.fillStyle = "rgba(209, 255, 255, "+radius+")";
+  for(i = 0; i < numStars; i++){
+    star = stars[i];
+    
+    pixelX = (star.x - centerX) * (focalLength / star.z);
+    pixelX += centerX;
+    pixelY = (star.y - centerY) * (focalLength / star.z);
+    pixelY += centerY;
+    pixelRadius = 1 * (focalLength / star.z);
+    
+    c.fillRect(pixelX, pixelY, pixelRadius, pixelRadius);
+    c.fillStyle = "rgba(209, 255, 255, "+star.o+")";
+    //c.fill();
+  }
+}
+
+document.getElementById('warp').addEventListener("click",function(e){
+  window.c.beginPath();
+  window.c.clearRect(0, 0, window.canvas.width, window.canvas.height);
+  window.warp = warp ? 0 : 1;
+  executeFrame();
+});
+
+executeFrame();
+
+</script>
+
+
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript">
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(113.426607,23.173528);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"MySchool",content:"Come&nbsp;to&nbsp;see&nbsp;me.",point:"113.425179|23.173545",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+    }
+    
+    initMap();
+</script>
+<script src="js/fallback.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/navChange.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+    <script>
+$(function () {
+
+  var slider1 = new Slider();
+  var doc_h = $(document.body).width();
+
+  slider1.inital('sliderBox', {
+	slider_num: 4,
+	w: doc_h,
+	h: 0
+  });
+});
+
+    </script>
+    <script>
+//based on an Example by @curran
+window.requestAnimFrame = (function(){   return  window.requestAnimationFrame})();
+var canvas = document.getElementById("space");
+var c = canvas.getContext("2d");
+
+var numStars = 1900;
+var radius = '0.'+Math.floor(Math.random() * 9) + 1  ;
+var focalLength = canvas.width *2;
+var warp = 0;
+var centerX, centerY;
+
+var stars = [], star;
+var i;
+
+var animate = true;
+
+initializeStars();
+
+function executeFrame(){
+  
+  if(animate)
+    requestAnimFrame(executeFrame);
+  moveStars();
+  drawStars();
+}
+
+function initializeStars(){
+  centerX = canvas.width / 2;
+  centerY = canvas.height / 2;
+  
+  stars = [];
+  for(i = 0; i < numStars; i++){
+    star = {
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      z: Math.random() * canvas.width,
+      o: '0.'+Math.floor(Math.random() * 99) + 1
+    };
+    stars.push(star);
+  }
+}
+
+function moveStars(){
+  for(i = 0; i < numStars; i++){
+    star = stars[i];
+    star.z--;
+    
+    if(star.z <= 0){
+      star.z = canvas.width;
+    }
+  }
+}
+
+function drawStars(){
+  var pixelX, pixelY, pixelRadius;
+  
+  // Resize to the screen
+  if(canvas.width != window.innerWidth || canvas.width != window.innerWidth){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    initializeStars();
+  }
+  if(warp==0)
+  {c.fillStyle = "rgba(0,10,20,1)";
+  c.fillRect(0,0, canvas.width, canvas.height);}
+  c.fillStyle = "rgba(209, 255, 255, "+radius+")";
+  for(i = 0; i < numStars; i++){
+    star = stars[i];
+    
+    pixelX = (star.x - centerX) * (focalLength / star.z);
+    pixelX += centerX;
+    pixelY = (star.y - centerY) * (focalLength / star.z);
+    pixelY += centerY;
+    pixelRadius = 1 * (focalLength / star.z);
+    
+    c.fillRect(pixelX, pixelY, pixelRadius, pixelRadius);
+    c.fillStyle = "rgba(209, 255, 255, "+star.o+")";
+    //c.fill();
+  }
+}
+
+document.getElementById('warp').addEventListener("click",function(e){
+  window.c.beginPath();
+  window.c.clearRect(0, 0, window.canvas.width, window.canvas.height);
+  window.warp = warp ? 0 : 1;
+  executeFrame();
+});
+
+executeFrame();
+
+</script>
+        <script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/scrollify.min.js"></script>
+		<script src="js/main.js"></script>
+
+</body>
+</html>
